@@ -1,24 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Zac Elisara</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zac Elisara | Cybersecurity & Systems</title>
+  <meta name="description" content="Zac Elisara - Systems Administrator and aspiring Cybersecurity Analyst portfolio." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">ZE</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-<h1>Zac Elisara</h1>
-<p>Systems Administrator | Aspiring Cybersecurity Analyst</p>
+    <div class="hero-content">
+      <p class="eyebrow">Auckland, New Zealand</p>
+      <h1>Zac Elisara</h1>
+      <p class="subtitle">Systems Administrator • Aspiring Cybersecurity Analyst • Automation Builder</p>
+      <p class="intro">
+        I build practical systems, improve workflows, and develop hands-on cybersecurity skills
+        through labs, projects, and real-world problem solving.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+      </div>
+    </div>
+  </header>
 
-<h2>Certifications</h2>
-<ul>
-<li>CompTIA A+</li>
-<li>CompTIA Network+</li>
-<li>CompTIA Security+</li>
-<li>CompTIA CySA+</li>
-</ul>
+  <main>
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="section-label">About</p>
+        <h2>Early-career tech professional focused on systems, security, and automation</h2>
+      </div>
+      <div class="card">
+        <p>
+          I currently work in systems administration and business systems improvement, with a strong
+          interest in cybersecurity. My background includes improving workflows, building automations
+          with tools like Airtable and n8n, and developing a practical understanding of infrastructure,
+          security fundamentals, and technical troubleshooting.
+        </p>
+        <p>
+          I’m actively working toward a cybersecurity role where I can apply my technical foundation,
+          certifications, and hands-on learning in a real operational environment.
+        </p>
+      </div>
+    </section>
 
-<h2>Projects</h2>
-<p>Automation systems using Airtable + n8n</p>
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="section-label">Projects</p>
+        <h2>Things I’ve built and explored</h2>
+      </div>
 
+      <div class="grid">
+        <article class="card project-card">
+          <h3>Workflow Automation System</h3>
+          <p class="project-stack">n8n • Airtable • APIs</p>
+          <p>
+            Built automation workflows to reduce repetitive manual work, improve consistency,
+            and streamline business processes.
+          </p>
+          <ul>
+            <li>Connected systems using API-based workflows</li>
+            <li>Reduced manual handling of repetitive admin tasks</li>
+            <li>Improved process consistency and visibility</li>
+          </ul>
+        </article>
+
+        <article class="card project-card">
+          <h3>SIEM / Log Investigation Lab</h3>
+          <p class="project-stack">Splunk • Log Analysis • Security Monitoring</p>
+          <p>
+            Investigated suspicious login activity and security events in lab scenarios to build
+            incident analysis skills.
+          </p>
+          <ul>
+            <li>Reviewed authentication events and alert patterns</li>
+            <li>Practiced identifying unusual login behaviour</li>
+            <li>Strengthened analyst-style investigation thinking</li>
+          </ul>
+        </article>
+
+        <article class="card project-card">
+          <h3>Linux / VPS Hardening</h3>
+          <p class="project-stack">Ubuntu • SSH • Firewall • Patch Management</p>
+          <p>
+            Gained hands-on exposure to deploying and securing Linux-based systems in hosted environments.
+          </p>
+          <ul>
+            <li>Configured server access and basic hardening</li>
+            <li>Applied updates and improved security posture</li>
+            <li>Built comfort working with infrastructure fundamentals</li>
+          </ul>
+        </article>
+
+        <article class="card project-card">
+          <h3>Network Analysis Practice</h3>
+          <p class="project-stack">Wireshark • TCP/IP • DNS</p>
+          <p>
+            Used packet analysis to better understand network traffic and build troubleshooting confidence.
+          </p>
+          <ul>
+            <li>Inspected packets and protocol behaviour</li>
+            <li>Reviewed DNS and connection flows</li>
+            <li>Developed stronger networking fundamentals</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-heading">
+        <p class="section-label">Certifications</p>
+        <h2>Current certifications</h2>
+      </div>
+
+      <div class="grid grid-small">
+        <div class="card cert-card"><h3>CompTIA A+</h3><p>Core IT support and troubleshooting fundamentals</p></div>
+        <div class="card cert-card"><h3>CompTIA Network+</h3><p>Networking concepts, connectivity, and infrastructure basics</p></div>
+        <div class="card cert-card"><h3>CompTIA Security+</h3><p>Security principles, risk, identity, and defensive fundamentals</p></div>
+        <div class="card cert-card"><h3>CompTIA CySA+</h3><p>Security monitoring, detection, and analyst-focused concepts</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="section-label">Skills</p>
+        <h2>Technical focus areas</h2>
+      </div>
+
+      <div class="skills-wrap">
+        <span class="skill">Security Fundamentals</span>
+        <span class="skill">Log Analysis</span>
+        <span class="skill">Splunk</span>
+        <span class="skill">Networking</span>
+        <span class="skill">TCP/IP</span>
+        <span class="skill">DNS</span>
+        <span class="skill">Linux</span>
+        <span class="skill">Windows</span>
+        <span class="skill">System Administration</span>
+        <span class="skill">Airtable</span>
+        <span class="skill">n8n</span>
+        <span class="skill">APIs</span>
+        <span class="skill">Automation</span>
+        <span class="skill">Process Improvement</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <p class="section-label">Contact</p>
+        <h2>Let’s connect</h2>
+      </div>
+
+      <div class="card">
+        <p>You can replace these with your real links:</p>
+        <p><strong>Email:</strong> yourname@email.com</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+        <p><strong>GitHub:</strong> github.com/yourusername</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Zac Elisara. Built with GitHub Pages.</p>
+  </footer>
 </body>
 </html>
